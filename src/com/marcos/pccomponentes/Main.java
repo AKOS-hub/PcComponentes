@@ -36,5 +36,20 @@ public class Main {
         System.out.println(gigabit.getFabricante());
         System.out.println(gigabit.getModelo());
         System.out.println(gigabit.getPrecio());
+
+        /**
+         * Tarjeta gráfica
+         */
+
+        GraphicCard gtx = new GraphicCard();
+        gtx.setId(1);
+        gtx.setMarca("nvidia");
+        gtx.setModelo("gtx 1660");
+        gtx.setPrecio(200);
+
+        System.out.println(gtx.getId());
+        System.out.println(gtx.getMarca());
+        System.out.println(gtx.getModelo());
+        System.out.println(gtx.getPrecio());
     }
 }
