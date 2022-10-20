@@ -213,5 +213,6 @@ public class Main {
         System.out.println(altavoz.getMarca());
         System.out.println(altavoz.getModelo());
         System.out.println(altavoz.getPrecio());
+
     }
 }
