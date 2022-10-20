@@ -123,5 +123,95 @@ public class Main {
         System.out.println(ram.getMarca());
         System.out.println(ram.getCapacidad());
         System.out.println(ram.getPrecio());
+
+        /**
+         * Sound card
+         */
+
+        SoundCard sonido = new SoundCard();
+        sonido.setId(1);
+        sonido.setMarca("sound blaster");
+        sonido.setModelo("6492");
+        sonido.setPrecio(40);
+
+        System.out.println(sonido.getId());
+        System.out.println(sonido.getMarca());
+        System.out.println(sonido.getModelo());
+        System.out.println(sonido.getPrecio());
+
+        /**
+         * Grabadora DVD
+         */
+
+        GrabadoraDVD dvd = new GrabadoraDVD();
+        dvd.setId(1);
+        dvd.setMarca("toshiba");
+        dvd.setModelo("6298");
+        dvd.setPrecio(20);
+
+        System.out.println(dvd.getId());
+        System.out.println(dvd.getMarca());
+        System.out.println(dvd.getModelo());
+        System.out.println(dvd.getPrecio());
+
+        /**
+         * Screen
+         */
+
+        Screen pantalla = new Screen();
+        pantalla.setId(1);
+        pantalla.setMarca("asus");
+        pantalla.setModelo("144");
+        pantalla.setPrecio(150);
+
+        System.out.println(pantalla.getId());
+        System.out.println(pantalla.getMarca());
+        System.out.println(pantalla.getModelo());
+        System.out.println(pantalla.getPrecio());
+
+        /**
+         * Teclado
+         */
+
+        Keyboard teclado = new Keyboard();
+        teclado.setId(1);
+        teclado.setMarca("logitec");
+        teclado.setModelo("430");
+        teclado.setPrecio(70);
+
+        System.out.println(teclado.getId());
+        System.out.println(teclado.getMarca());
+        System.out.println(teclado.getModelo());
+        System.out.println(teclado.getPrecio());
+
+        /**
+         * Raton
+         */
+
+        Mouse raton = new Mouse();
+        raton.setId(1);
+        raton.setMarca("logitec");
+        raton.setModelo("120");
+        raton.setPrecio(50);
+
+        System.out.println(raton.getId());
+        System.out.println(raton.getMarca());
+        System.out.println(raton.getModelo());
+        System.out.println(raton.getPrecio());
+
+        /**
+         * Altavoces
+         */
+
+        Speakers altavoz = new Speakers();
+        altavoz.setId(1);
+        altavoz.setMarca("mars gaming");
+        altavoz.setModelo("1660");
+        altavoz.setPrecio(45);
+
+        System.out.println(altavoz.getId());
+        System.out.println(altavoz.getMarca());
+        System.out.println(altavoz.getModelo());
+        System.out.println(altavoz.getPrecio());
     }
 }
