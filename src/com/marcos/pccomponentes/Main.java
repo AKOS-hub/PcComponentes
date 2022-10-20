@@ -104,6 +104,7 @@ public class Main {
         fuente.setPotencia("500W");
         fuente.setPrecio(75);
 
+
         System.out.println(fuente.getId());
         System.out.println(fuente.getMarca());
         System.out.println(fuente.getPotencia());
