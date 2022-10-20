@@ -10,6 +10,7 @@ public class Procesador {
     private Integer id;
     private String marca;
     private String fabricante;
+    private Integer precio;
 
     /**
      * Métodos, funciones, comportamiento
@@ -36,6 +37,14 @@ public class Procesador {
 
     public void setFabricante(String fabricante){
         this.fabricante = fabricante;
+    }
+
+    public Integer getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(Integer precio) {
+        this.precio = precio;
     }
 
 }
